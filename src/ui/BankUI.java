@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.ListCellRenderer;
 import validation.Validator;
 
-/**Author: Team 4
+/*
  **Date: 11/29/18
  * @author twalters25, dgraff, ngillil
  */
@@ -468,7 +468,7 @@ NumberFormat c = NumberFormat.getCurrencyInstance();
         
         // determine which object to create
         // if checking account is selected...
-        if (jComboBoxAccount.getSelectedItem()==AccountType.Checking) {
+        if (jComboBoxAccount.getSelectedItem()== AccountType.Checking) {
             //instantiate CheckingAccount
             checkingAcct=new CheckingAccount(accountNo,fname,lname);
             if (jRadioButtonBasic.isSelected()){
